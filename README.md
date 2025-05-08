@@ -1,77 +1,88 @@
-Project: Web Application for Managing Products and Orders
-Features
+# Web Application for Managing Products and Orders
 
-    Users:
+## Overview
 
-        Administrators and moderators can manage users (view, add, update, delete).
+This project is a PHP-based web application that allows role-based management of users, products, categories, and orders. It includes features for order tracking, user management, and activity logging, supporting administrators, moderators, and regular users.
 
-        Display all users with information about their spending.
+## Features
 
-    Products and Categories:
+### Users
 
-        Administrators and moderators can manage products and product categories.
+- Administrators and moderators can:
+  - View users
+  - Add users
+  - Update user information
+  - Delete users
+  - See user spending information
 
-        Display products with total spending on each product.
+### Products and Categories
 
-        Display product categories with total spending on products of that category.
+- Administrators and moderators can:
+  - Manage products (add, update, delete)
+  - Manage product categories
+  - View products with total spending
+  - View product categories with total spending
 
-    Orders:
+### Orders
 
-        Administrators and moderators can manage orders.
+- Administrators and moderators can:
+  - Manage orders
+  - View customer, total price, and date for each order
 
-        Display orders with information about the customer, total price, and date.
+- Regular users can:
+  - Create orders
+  - View their cart
+  - Complete orders
 
-        Completing orders by users.
+### Logs
 
-    Logs:
+- Only administrators can access activity logs via `logs.php`
 
-        Administrators can access activity logs.
+### Authentication
 
-    Logged-in Users:
+- Users can:
+  - Log in and log out
+  - Access features based on their role (admin, moderator, user)
 
-        Options for login, logout, and accessing features depending on the user's role.
+## Login
 
-Login
+To log in, open `login.php` and use one of the following accounts:
 
-    Open login.php.
+### Administrator
 
-    Log in using the following credentials:
+- **Username:** danilo123  
+- **Password:** danilo1
 
-    Administrator:
+### Moderator
 
-        Username: danilo123
+- **Username:** aleksandar123  
+- **Password:** aleksandar1
 
-        Password: danilo1
+### Regular User
 
-    Moderator:
+- **Username:** marko123  
+- **Password:** marko1
 
-        Username: aleksandar123
+## Managing Products and Orders
 
-        Password: aleksandar1
+- Administrators and moderators can:
+  - Manage users, products, categories, and orders through the interface
 
-    User:
+- Regular users can:
+  - Create orders
+  - View their carts
 
-        Username: marko123
+## Accessing Logs
 
-        Password: marko1
-    Managing Products and Orders
+- Logs are available only to administrators via the `logs.php` page.
 
-    As an administrator or moderator, you can manage users, products, product categories, and orders through the respective pages.
+## Technical Details
 
-    As a user, you can create orders and view your carts.
+- **Technologies used:** PHP, MySQL
 
-Accessing Logs
+## Contact
 
-    Only administrators have access to the logs via the logs.php page.
+If you have any questions or suggestions, feel free to reach out:
 
-Technical Details
-
-    Technologies: PHP, MySQL
-
-Contact
-
-If you have any questions, you can contact me at:
-
-    Email: danilodasic8@gmail.com
-
-    GitLab:
+- **Email:** danilodasic8@gmail.com
+- **GitHub:** [danilodasic4](https://github.com/danilodasic4)
